@@ -1,0 +1,9 @@
+{
+  "watch": [
+    "src/server"    
+  ],
+  "ext": "ts",
+  "execMap": {
+    "ts": "ts-node --inspect --project ./src/server"
+  }
+}

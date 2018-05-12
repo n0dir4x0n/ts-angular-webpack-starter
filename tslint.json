@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rules": {
+    "member-access": false,
+    "member-ordering": false,
+    "no-console": false,
+    "no-shadowed-variable": false,
+    "object-literal-key-quotes": false,
+    "object-literal-sort-keys": false,
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "variable-name": false
+  }
+}

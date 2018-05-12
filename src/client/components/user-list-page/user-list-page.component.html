@@ -1,0 +1,8 @@
+<a routerLink="/users/create">Create</a>
+<table>
+  <tbody>
+    <tr *ngFor="let user of users">
+      {{user|json}}
+    </tr>
+  </tbody>
+</table>
